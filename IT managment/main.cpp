@@ -16,7 +16,7 @@ int main()
         cout<<"Witaj w phone managment!" <<endl;
         cout<<"Menu" <<endl;
         cout<<"1.Dodaj produkt." <<endl;
-        cout<<"2.Wyœwietl produkty." <<endl;
+        cout<<"2.Wyswietl produkty." <<endl;
         cout<<"Nacisnij ESC aby wyjsc." <<endl;
         wybor_menu = getch();
         system( "cls ");
@@ -36,7 +36,6 @@ int main()
                     cout<<"Podaj cene sprzedazy: ";
                     cin>>cena_sprzedaz;
                     cout<<"Czy wprowadzone dane sa poprawne? [T/N]: ";
-                    cin>>toupper( poprawnosc_danych );
                 }
                 break;
 
